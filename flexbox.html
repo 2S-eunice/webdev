@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<style>
+			.flex {
+				display: flex;
+				width: 800px;
+				height: 100px;
+				background-color: red;
+				font-family: 'helvetica neue';
+				text-align: center;
+			}
+			.one {
+				flex:1;
+				background-color: orange;
+				position: relative;
+			}
+			.square {
+				position: absolute;
+				width: 25px;
+				height: 25px;
+				background-color: white;
+				right: 50%;
+				margin-right: -12.5px;
+				top: 50%;
+				margin-top: -12.5px;
+			}
+			.two {
+				flex:2;
+			}
+			.three {
+				flex:3;
+				background-color: black;
+				color: white;
+			}
+			.next {
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex">
+			<div class="one">
+				<div class="square"></div>	
+			</div>
+			<div class="two">two</div>
+			<div class="three">three</div>
+		</div>
+		<p class="next">hello</p>
+	</body>
+</html>

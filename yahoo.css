@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	font-family: 'Helvetica neue';
+}
+#header{
+	background-color: 2d004d;
+	height: 22;
+}
+.home{
+	height: 12;
+	width: 15;
+	padding-right: 5;
+	padding-left: 5;
+	padding-top: 3;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1;
+	font-family: 'Helvetica Neue';
+	font-size: 12;
+	font-weight: 200;
+}
+.home:hover{
+	text-decoration: underline;
+}
+.header{
+	padding-left: 28;
+	color: white;
+	text-decoration: none;
+	font-family: 'Helvetica Neue';
+	font-size: 12;
+	letter-spacing: 1;
+	font-weight: 200;
+}
+.header:hover{
+	text-decoration: underline;
+}
+.logo{
+	height: 35;
+	padding: 25;
+	padding-left: 110;
+}
+.searchbar{
+	position: absolute;
+	margin-left: 300;
+	margin-top: -60;
+	height: 40;
+	width: 450;
+	font-size: 20;
+	border: solid 1px #AAAAAA;
+	border-radius: 2px;
+}
+:focus{
+	border: solid 1px #0099FF;
+	outline: none;
+}
+.submit{
+	position: absolute;
+	margin-top: -60;
+	margin-left: 755;
+	padding: 10 25 10 25;
+	border: solid 1px #0099FF;
+	border-radius: 3px;
+	background-color: #0099FF;
+	color: white;
+	font-size: 15;
+	letter-spacing: .5;
+	cursor: pointer;
+}
+.signin{
+	position: absolute;
+	margin-top: -68;
+	margin-left: 1100;
+	padding: 2 17 2 17;
+	border-radius: 5px;
+	border: solid 2px #330099;
+	color: 330099;
+	font-family: 'Helvetica Neue';
+	font-weight: 700;
+	font-size: 14;
+	text-decoration: none;
+}
+.signin:hover{
+	background-color: #330099;
+	color: white;
+}
+.bell{
+	position: absolute;
+	height: 28;
+	margin-left: 1212;
+	margin-top: -68;
+}
+.mailimage{
+	position: absolute;
+	height: 28;
+	margin-left: 1265;
+	margin-top: -70;
+}
+.mail{
+	position: absolute;
+	margin-left: 1305;
+	margin-top: -65;
+	font-family: 'Helvetica Neue';
+	font-weight: 700;
+	font-size: 14;
+	text-decoration: none;
+}
+.box{
+	background-color: #AAAAAA;
+	position: absolute;
+	height: 100;
+	width: 100;
+}
+#ad{
+	height: 250;
+	margin-left: 290;
+}
+#article{
+	height: 420;
+	margin-top: 12;
+	margin-left: 286;
+}
+.trend{
+	margin-top: -205;
+	margin-left: 50;
+	font-weight: bold;
+	font-size: 14;
+	width: 300;
+}
+.leftlist{
+	padding-left: 10;
+	margin-top: 0;
+	color: #330099;
+	font-size: 12;
+	font-weight: bold;
+	line-height: 2;
+}
+.rightlist{
+	padding-left: 155;
+	margin-top: -120;
+	color: #330099;
+	font-size: 12;
+	font-weight: bold;
+	line-height: 2;
+}
+ol{
+	list-style: none
+}
+li{
+	counter-increment: item;
+}
+li:before{
+	content: counter(item) ".";
+	font-weight: 400;
+	color: #000000;
+	margin-right: 10;
+}
+.weather{
+	height: 130;
+	margin-left: -360;
+	margin-top: 115;
+}

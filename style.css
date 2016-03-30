@@ -1,0 +1,35 @@
+body {
+				font-family: tahoma;
+				font-size: 10;
+				color: white;
+				background-color: black;
+				margin: 35%;
+				margin-top: 120;
+				background: url("bgimage.png");
+				background-size: cover;
+
+			}
+p {
+	font-weight: bold;
+	text-indent: 27;
+			}
+ul {
+	margin-top: -5;
+			}
+li {
+	list-style: none;
+	opacity: .55;
+			}
+h1 {
+	letter-spacing: .5;
+	margin-top: -10;
+			}
+h3 {
+	text-indent: 10;
+			}
+.header {
+	text-align: center;
+			}
+hr {
+	margin: 20 0 20 0;
+			}

@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+.topbar {
+	width: 100%;
+	background-color: yellow;
+}
+.flex {
+	display: flex;
+	width: 100%;
+	background-color: red;
+	height: 300px;
+}
+.nav {
+	background-color: pink;
+	width: 25%;
+}
+.story {
+	background-color: purple;
+	width: 25%;
+}
+.woah {
+	background-color: orange;
+	width: 50%;
+}
+.nav .gee {
+	background-image: url("http://placehold.it/40x40");
+	background-repeat: no-repeat;
+	background-position: 5px;
+	line-height: 40px;
+	height: 40px;
+	display: block;
+	padding-left: 60px;
+	margin-top: 5px;
+	background-color: grey;
+}

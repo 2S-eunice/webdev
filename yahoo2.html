@@ -1,0 +1,255 @@
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				margin:0;
+				font-family: 'helvetica neue';
+				font-size: 10;
+				height: 1000;
+			}
+			.topbar {
+				position: fixed;
+				width: 100%;
+				background-color: #ccff00;
+				padding: 10;
+				font-weight: 100;
+				font-size: 20;
+				word-spacing: 15;
+				z-index: 1;
+			}
+			.topbar a {
+				text-decoration: none;
+				color: #000000;
+			}
+			.topbar a:hover{
+				color: #99cc33
+			}
+			#yoohoo {
+				font-size: 40;
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 100;
+				margin-top: 25;
+			}
+			#form {
+				display: inline-block;
+				margin-left: 30;
+				margin-top: 75;
+			}
+			#search {
+				height: 40;
+				width: 500;
+				font-size: 25;
+				font-weight: 100;
+				border: solid 1px #ccff00;
+				vertical-align: middle;
+			}
+			#search:focus {
+				outline-style: none;
+				border: solid 5px #ccff00;
+				padding-left: 10;
+			}
+			#punch {
+				height: 40;
+				width: 100;
+				font-size: 12;
+				font-weight: 800;
+				border: solid 1px #000000;
+				background-color: #FFFFFF;
+				margin-left: 5;
+			}
+			#punch:hover {
+				background-color: #ccff00;
+				border: none;
+			}
+			#punch:focus {
+				color: #FFFFFF;
+				outline-style: none;
+			}
+			#signin {
+				padding: 5 12 5 12;
+				font-size: 10;
+				font-weight: 200;
+				text-decoration: none;
+				border: solid 5px #ccff00;
+				border-radius: 15px;
+				vertical-align: middle;
+				margin-left: 225;
+				color: #000000;
+			}
+			#signin:hover {
+				color: #ccff00;
+				background-color: #000000;
+				border: solid 5px #000000;
+			}
+			#signin:focus {
+				background-color: #ccff00;
+				color: #FFFFFF;
+				border: solid 5px #ccff00;
+			}
+			#smile {
+				width: 25;
+				vertical-align: middle;
+				margin-left: 20;
+			}
+			#mailbox {
+				width: 25;
+				vertical-align: middle;
+				margin-left: 20;
+			}
+			#mailbox:hover {
+				content: url('mailbox2.png');
+			}
+			#left {
+				margin-top: 50;
+				margin-left: 70;
+				width: 200;			
+			}
+			.leftbar {
+				width: 20px;
+				vertical-align: middle;
+				margin-top: 15;
+				margin-bottom: 20;
+			}
+			#leftbar {
+				list-style-type: none;
+				width: 150;
+				display: inline-block;
+
+			}
+			.leftlink {
+				text-decoration: none;
+				color: #000000;
+				font-size: 20;
+				font-weight: 100;
+			}
+			.leftlink:hover {
+				font-weight: 400;
+				color: #ccff00;
+			}
+			.mid {
+				position: absolute;
+				width: 800;
+				display: inline-block;
+				margin-top: 15;
+				border-radius: 5px;
+				margin-left: 55px;
+			}
+			.article {
+				position: absolute;
+				margin-left: 90px;
+				margin-top: 20px;
+				text-decoration: none;
+				color: #000000;
+			}
+			#title {
+				font-size: 20px;
+				font-weight: 600;
+			}
+			#info {
+				font-size: 12px;
+				margin-top: -17px;
+			}
+			.article:hover {
+				color: #ccff00;
+			}
+			#images {
+				margin-left: 230px;
+				margin-top: 275px;
+				width: 900px;
+
+			}
+			.images {
+				position: relative;
+				width: 255px;
+				border-radius: 5px;
+				display: inline-block;
+				margin-left: 15px;
+			}
+			.text {
+				position: absolute;
+				margin-left: 14;
+				margin-top: 8;
+				color: #000000;
+				font-size: 12;
+				font-weight: 600;
+			}
+			.text:hover {
+				color: #ccff00;
+			}
+			.list {
+				position: absolute;
+				margin-left: 1075;
+				margin-top: -570;
+				display: inline-block;
+				border: 1px solid #ccff00;
+				border-radius: 5px;
+				padding-top: 3;
+				padding-left: 17;
+				padding-right: 17;
+				padding-bottom: 15;
+			}
+			#list {
+				padding-left: 0;
+				list-style: none;
+				line-height: 2;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="topbar">
+			<a href="">
+				<img src="home2.png" style="width:17; margin-right:-15;">
+				 home
+			</a>
+			<a href="">mail</a>
+			<a href="">flickr</a>
+			<a href="">tumblr</a>
+			<a href="">answers</a>
+			<a href="">groups</a>
+			<a href="">mobile</a>
+			<a href="">more</a>
+		</div>
+		<div class="second">
+			<h1 id="yoohoo">YOOHOO</h1>
+			<form id="form">
+				<input type="text" id="search"/>
+				<input type="submit" value="PUNCH IT" id="punch"/>
+			</form>
+			<a href="" id="signin">SIGN IN</a>
+			<a href=""><img src="smile.jpg" id="smile"></a>
+			<a href=""><img src="mailbox.png" id="mailbox" style="margin-right:5;"></a>
+		</div>
+		<div id="left">
+			<ul id="leftbar">
+				<li><a href="" class="leftlink"><img src="news.png" class="leftbar" style="margin-right:10;">news</a></li>
+				<li><a href="" class="leftlink"><img src="sun.png" class="leftbar" style="margin-right:10;">weather</a></li>
+				<li><a href="" class="leftlink"><img src="basketball.png" class="leftbar" style="margin-right:10;">sports</a></li>
+				<li><a href="" class="leftlink"><img src="film.png" class="leftbar" style="margin-right:10;">film</a></li>
+				<li><a href="" class="leftlink"><img src="car.png" class="leftbar" style="margin-right:10;">auto</a></li>
+				<li><a href="" class="leftlink"><img src="hanger.png" class="leftbar" style="margin-right:10;">fashion</a></li>
+			</ul>
+			<img src="dtla.jpg" class="mid">
+			<a href="" class="article">
+				<p id="title">Revolutionize sports through intelligence</p>
+				<p id="info">Data is revolutionizing the sports industry. However, we face the challenge of ...</p>
+			</a>
+			<div id="images">
+				<a href=""><img src="1.jpg" class="images"><p class="text">What we do</p></a>
+				<a href=""><img src="2.jpg" class="images"><p class="text" style="margin-left:288;">From data collection to compelling content</p></a>
+				<a href=""><img src="3.jpg" class="images"><p class="text" style="margin-left:560;">We are a full-stack solution</p></a>
+			</div>
+			<div class="list">
+				<p style="font-size:12;"><b>Our Offices</b></p>
+				<ol id="list">
+					<li>LOS ANGELES</li>
+					<li>BOSTON</li>
+					<li>LAUSANNE</li>
+					<li>SHANGHAI</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>
